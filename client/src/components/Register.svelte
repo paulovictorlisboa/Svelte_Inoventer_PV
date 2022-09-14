@@ -33,9 +33,7 @@
 
 <h1>Exemplo de Formulário</h1>
 
-<form
-    on:submit|preventDefault={submit}
->
+<form id="formulario" on:submit|preventDefault={submit}>
     <legend>Dados Pessoais</legend>
 
     <div class="form-group">
@@ -118,6 +116,16 @@
 </form>
 
 <style>
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    form#fomulario {
+        background-color: #707070;
+    }
+
     button {
         margin: 20px 0 20px 0;
     }
