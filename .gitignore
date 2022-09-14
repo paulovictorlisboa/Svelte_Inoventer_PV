@@ -1,0 +1,10 @@
+/node_modules/
+.env
+.rollup.cache
+
+server/dist/
+server/tsconfig.tsbuildinfo
+
+client/public/build/
+client/public/vendor/
+client/tsconfig.tsbuildinfo

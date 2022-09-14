@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --font: 'Lato', sans-serif;
+}
+
+header {	
+	align-items: center;
+}
+
+body > main > * {
+	animation: fadeIn .1s;
+}
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	font-size: 1.0em;
+	margin: auto;
+	height: 40px;
+	width: 80px;    
+	background-color: #E2A518;
+	border: 1px solid #707070;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+	box-sizing: border-box;	
+	text-align: center;
+}
+
+.button-circle {
+	background-color: #E2A518;
+	border: 1px solid #707070;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	height: 40px;
+	width: 40px;        
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
